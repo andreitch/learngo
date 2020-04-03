@@ -3,18 +3,18 @@ package main
 import "fmt"
 
 // ---------------------------------------------------------
-// EXERCISE: Declare string
+// EXERCISE: Short With Expression
 //
-//  1. Declare a string variable
+// 	1. Short declare a variable named `sum`
 //
-//  2. Print that variable
+//  2. Initialize it with an expression by adding 27 and 3.5
 //
 // EXPECTED OUTPUT
-//  ""
+//  30.5
 // ---------------------------------------------------------
 
 func main() {
-	var s string
+	sum := 27 + 3.5
 
-	fmt.Printf("%q\n", s)
+	fmt.Println(sum)
 }

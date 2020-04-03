@@ -3,18 +3,16 @@ package main
 import "fmt"
 
 // ---------------------------------------------------------
-// EXERCISE: Declare string
+// EXERCISE: Multiple Short Declare
 //
-//  1. Declare a string variable
-//
-//  2. Print that variable
+//  Declare two variables using multiple short declaration
 //
 // EXPECTED OUTPUT
-//  ""
+//  14 true
 // ---------------------------------------------------------
 
 func main() {
-	var s string
+	a, b := 14, true
 
-	fmt.Printf("%q\n", s)
+	fmt.Println(a, b)
 }

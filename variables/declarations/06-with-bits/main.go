@@ -28,30 +28,28 @@ import "fmt"
 // ---------------------------------------------------------
 
 func main() {
-	var (
-		// integer types
-		i   int
-		i8  int8
-		i16 int16
-		i32 int32
-		i64 int64
+	// integer types
+	var i int
+	var i8 int8
+	var i16 int16
+	var i32 int32
+	var i64 int64
 
-		// float types
-		f32 float32
-		f64 float64
+	// float types
+	var f32 float32
+	var f64 float64
 
-		// complex types
-		c64  complex64
-		c128 complex128
+	// complex types
+	var c64 complex64
+	var c128 complex128
 
-		// bool type
-		b bool
+	// bool type
+	var b bool
 
-		// string types
-		s  string
-		r  rune
-		by byte
-	)
+	// string types
+	var s string
+	var r rune  // also a numeric type
+	var by byte // also a numeric type
 
 	fmt.Println(
 		i, i8, i16, i32, i64,
@@ -60,5 +58,5 @@ func main() {
 		b, r, by,
 	)
 
-	fmt.Println(s)
+	fmt.Printf("%q\n", s)
 }
