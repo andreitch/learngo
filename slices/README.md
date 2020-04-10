@@ -5,3 +5,7 @@
 ---
 
 ## Exercises Level II - Appending
+
+---
+
+## Exercises Level III - Slicing
